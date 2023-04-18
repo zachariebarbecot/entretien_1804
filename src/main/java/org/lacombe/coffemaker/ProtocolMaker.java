@@ -2,8 +2,11 @@ package org.lacombe.coffemaker;
 
 public class ProtocolMaker {
 
-    public String generateOrder(String drinkType, int numberOfSugar){
+    public String generateOrder(DrinkTypes drinkType, int numberOfSugar){
         String order = "";
+        char drinkCaracter='T';
+        if(drinkType.equals())
+
         
         return order;
     }
